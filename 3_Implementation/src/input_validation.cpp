@@ -1,13 +1,5 @@
-/**********************************************************************************************
-** Program Name: Project 2 (Grocery List)
-** Author: Jeremy Einhorn
-** Date: July 18, 2017
-** Description:  This is the implementation file for my Input Validation.  This program only
-needs to check for a valid string and a valid positive integer.
-**********************************************************************************************/
 
-
-#include "input_validation.hpp"
+#include "shoppingcart.h"
 #include <iostream>
 #include <algorithm>
 using std::cout;

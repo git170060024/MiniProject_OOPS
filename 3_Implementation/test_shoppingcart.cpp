@@ -1,23 +1,25 @@
-#include"Item.hpp"
+#include "shoppingcart.h"
 #include <gtest/gtest.h>
-#include<string.h>
 
 TEST(mystring, Empty_Cosnstructor)
 {
   Item s1;
   //   s1 = "Bharath";
-  EXPECT_EQ(NULL, s1.getName());
-  EXPECT_EQ(NULL, s1.getUnit());
-  EXPECT_EQ(0, s1.getQuantity());
+  EXPECT_EQ("", s1.getName());
+  EXPECT_EQ("", s1.getUnit());
   EXPECT_EQ(0, s1.getPrice());
+  EXPECT_EQ(0,s1.getQuantity());
+
 }
-/*
+
 TEST(mystring, Param_Cosnstructor)
 {
-  Item s1("Bharath");
-  EXPECT_STREQ("Bharath", s1.getName());
-  EXPECT_EQ(7, s1.get_len());
+  Item s1("Bharath","fruit",10,10);
+  EXPECT_EQ("Bharath", s1.getName());
+  EXPECT_EQ(10,s1.getPrice());
+  EXPECT_EQ(10,s1.getQuantity());
 }
+/*
 TEST(mystring, Copy_Cosnstructor)
 {
   mystring s1("Bharath");

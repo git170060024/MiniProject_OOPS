@@ -1,13 +1,4 @@
-/**********************************************************************************************
-** Program Name: Project 2 (Grocery List)
-** Author: Jeremy Einhorn
-** Date: July 18, 2017
-** Description:  This is the main file.  An empty list is created upon execution of the program.
-If the user chooses to add, they must input the Item's information.
-**********************************************************************************************/
-
-
-#include"List.hpp"
+#include "shoppingcart.h"
 #include<iostream>
 #include<string>
 using std::cout;

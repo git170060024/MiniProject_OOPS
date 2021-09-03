@@ -5,12 +5,11 @@ BUILD_DIR = Build
 
 SRC = main.cpp\
 src/input_validation.cpp\
-src/Item.cpp\
+src/item.cpp\
 src/List.cpp\
 src/menu.cpp\
 
-TEST_SRC = Test/Test_shoppingcart.cpp\
-
+TEST_SRC = test_shoppingcart.cpp
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
@@ -28,10 +27,7 @@ endif
 TEST_OUTPUT = $(BUILD_DIR)/Test_$(PROJ_NAME).$(EXEC)
 
 INC = -Iinc\
-inc/input_validation.hpp\
-inc/Item.hpp\
-inc/List.hpp\
-inc/menu.hpp\
+inc/shoppingcart.h
 
 INCLUDE_LIBS = -lgtest -lgtest_main -lpthread
 
@@ -83,12 +79,9 @@ staticcheck:$(BUILD_DIR)
 memcheck: $(BUILD_DIR)
 	valgrind ./$(TEST_OUTPUT)
 
-sanitize_check: $(BUILD_DIR)
-	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-	./$(TEST_OUTPUT)
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 
 clean:
-	rm -rf $(BUILD_DIR) $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov
+	rm -rf $(BUILD_DIR) $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov *.gch
