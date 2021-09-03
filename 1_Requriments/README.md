@@ -1,4 +1,5 @@
 # Requirements
+
 ## System setup
 	1.1 Software Requirements
     • Visual studio code
@@ -9,7 +10,6 @@
     • Ram
     • Processor
     • Hard Drive
-
 
 # 4W's and 1'H
 ## Who:
