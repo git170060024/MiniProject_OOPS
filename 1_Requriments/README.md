@@ -29,3 +29,5 @@
 
 # SWOT Analysis
 ![image](https://user-images.githubusercontent.com/86166803/132090156-bb062a8c-4264-4061-9605-faf71522784f.png)
+
+# Detail requirements: - High Level Requirements:
