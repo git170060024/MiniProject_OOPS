@@ -28,3 +28,4 @@
     • Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the internet using web browser.
 
 # SWOT Analysis
+![image](https://user-images.githubusercontent.com/86166803/132090156-bb062a8c-4264-4061-9605-faf71522784f.png)
