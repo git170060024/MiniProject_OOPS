@@ -33,3 +33,5 @@
 # Detail requirements: 
 ## High Level Requirements:
 ![high-level](https://user-images.githubusercontent.com/86166803/132090674-88901cc4-6476-43f4-a749-86e59cbfbbea.jpeg)
+ ## Low Level Requirements:
+ ![low-level](https://user-images.githubusercontent.com/86166803/132090713-fdca31d1-c95c-4b25-a931-bb4d18e0dacb.jpeg)
