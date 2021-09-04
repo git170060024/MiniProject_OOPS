@@ -32,3 +32,7 @@
 
 # Detail requirements: 
 ## High Level Requirements:
+ID	Description	Status
+HR01	User should be able to view the cart items	IMPLEMENTED
+HR02	Display of total cost of user purchased items	IMPLEMENTED
+HR03	Game should end with accurate results	IMPLEMENTED
