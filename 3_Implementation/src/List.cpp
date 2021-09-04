@@ -1,10 +1,4 @@
-/**********************************************************************************************
-** Program Name: Project 2 (Grocery List)
-** Author: Jeremy Einhorn
-** Date: July 18, 2017
-** Description:  This is the implementation file for the class List.  It sets up an array of
-Items then has the ability to add and remove from the array.
-**********************************************************************************************/
+
 
 #include "shoppingcart.h"
 #include<iostream>
@@ -13,10 +7,14 @@ using std::endl;
 
 //default constructor dynamically allocates a 4 element Item array
 //that can be resized.  It is filled with default Items
-bool operator==(Item a, Item b)
+bool operator==(Item &a, Item &b)
 {
-	return (a.getName() == b.getName());
+	if(a.getName() == b.getName())
+	return true;
+	else
+	return false;
 }
+
 List::List()
 {
 	//default Item
@@ -160,6 +158,10 @@ void List::print()
 		cout << "The list is empty." << endl;
 
 	cout << "The grand total of the list is: $" << total << endl;
+
+	
+
+
 }
 
 //this allows the name of two Items to be compared

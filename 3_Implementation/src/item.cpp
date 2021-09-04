@@ -2,8 +2,6 @@
 
 #include "shoppingcart.h"
 
-//Item default constructor sets a default Item to an item with no name,
-//unit type, quantity, or price
 Item::Item()
 {
 	name = "";
@@ -21,7 +19,6 @@ Item::Item(string n, string u, int q, int p)
 	price = p;
 }
 
-//returns the Item's name
 string Item::getName()
 {
 	return name;

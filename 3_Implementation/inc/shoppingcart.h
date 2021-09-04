@@ -5,7 +5,6 @@ using std::string;
 
 class Item
 {
-private:
 	string name, unit;
 	int quantity, price;
 
